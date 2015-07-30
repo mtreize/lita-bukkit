@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^spec/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "lita", "~> 2.6"
+  spec.add_runtime_dependency "lita", ">= 2.6"
   spec.add_runtime_dependency "nokogiri", "~> 1.6"
 
   spec.add_development_dependency "bundler", "~> 1.3"

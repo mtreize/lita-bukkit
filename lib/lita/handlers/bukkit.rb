@@ -6,7 +6,7 @@ module Lita
     class Bukkit < Handler
       URL = "http://bukk.it"
 
-      route %r{??}, :fetch, command: true, help: {
+      route %r{\?\?}, :fetch, command: true, help: {
         "tars ??" => "Fetches a random image from bukkit."
       }
 
